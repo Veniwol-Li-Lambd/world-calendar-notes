@@ -144,6 +144,7 @@ export default class WorldCalendarNotes extends Plugin {
   async loadSettings() {
     const saved = (await this.loadData()) ?? {};
     this.settings = Object.assign({}, DEFAULTS, saved);
+    this.settings.countries = [...(saved.countries ?? [])];
     this.settings.periods = Object.assign({}, DEFAULTS.periods, saved.periods ?? {});
     for (const p of PERIODS) this.settings.periods[p] = Object.assign({}, DEFAULTS.periods[p], this.settings.periods[p]);
     this.rebuildHolidays();
