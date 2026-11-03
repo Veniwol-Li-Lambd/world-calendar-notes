@@ -1,0 +1,22 @@
+{
+  "name": "world-calendar-notes",
+  "version": "1.0.0",
+  "description": "Obsidian calendar with periodic notes, world holidays and other calendars",
+  "main": "main.js",
+  "scripts": {
+    "build": "tsc --noEmit -p . && node esbuild.config.mjs production",
+    "test": "node test/build.mjs && node test/run.mjs"
+  },
+  "keywords": [],
+  "author": "Lilambd Crossing",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "builtin-modules": "^5.5.0",
+    "esbuild": "^0.28.2",
+    "jsdom": "^30.1.3",
+    "moment": "^2.31.0",
+    "obsidian": "^1.14.4",
+    "typescript": "^7.0.2"
+  }
+}

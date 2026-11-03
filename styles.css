@@ -1,0 +1,27 @@
+.wcn { padding: 6px 8px; font-size: var(--font-ui-small); }
+.wcn-head { display: flex; align-items: center; justify-content: space-between; gap: 6px; margin-bottom: 6px; }
+.wcn-title { font-weight: 600; font-size: var(--font-ui-medium); }
+.wcn-year, .wcn-q { color: var(--text-muted); font-weight: 500; }
+.wcn-nav { display: flex; gap: 2px; }
+.wcn-nav button { padding: 2px 8px; height: auto; }
+.wcn-link { cursor: pointer; border-radius: 4px; }
+.wcn-link:hover { background: var(--background-modifier-hover); }
+.wcn-has { text-decoration: underline; text-decoration-color: var(--interactive-accent); text-underline-offset: 3px; }
+.wcn-grid { width: 100%; border-collapse: collapse; table-layout: fixed; }
+.wcn-grid th { color: var(--text-muted); font-weight: 500; font-size: var(--font-ui-smaller); padding: 2px 0; text-align: center; }
+.wcn-grid td { text-align: center; vertical-align: top; padding: 3px 0 2px; cursor: pointer; border-radius: 6px; }
+.wcn-grid td.wcn-day:hover { background: var(--background-modifier-hover); }
+.wcn-wk { color: var(--text-faint); font-size: var(--font-ui-smaller); width: 2.2em; }
+.wcn-out { opacity: .4; }
+.wcn-today .wcn-num { background: var(--interactive-accent); color: var(--text-on-accent); border-radius: 999px; display: inline-block; min-width: 1.7em; }
+.wcn-hol .wcn-num { color: var(--text-error); font-weight: 600; }
+.wcn-today.wcn-hol .wcn-num { color: var(--text-on-accent); }
+.wcn-alt { font-size: 9px; color: var(--text-faint); line-height: 1.1; }
+.wcn-dots { height: 6px; line-height: 6px; }
+.wcn-dot { display: inline-block; width: 4px; height: 4px; border-radius: 50%; background: var(--text-muted); }
+.wcn-list { margin-top: 8px; border-top: 1px solid var(--background-modifier-border); padding-top: 6px; }
+.wcn-row { display: flex; gap: 8px; padding: 2px 0; }
+.wcn-row-date { color: var(--text-muted); min-width: 4.5em; }
+.wcn-row-name { flex: 1; }
+.wcn-row-cc { color: var(--text-faint); }
+.wcn-muted { color: var(--text-muted); margin-top: 6px; font-size: var(--font-ui-smaller); }
