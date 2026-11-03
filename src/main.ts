@@ -276,7 +276,7 @@ export default class WorldCalendarNotes extends Plugin {
       leaf = right;
       await leaf.setViewState({ type: VIEW_TYPE, active: true });
     }
-    if (reveal) ws.revealLeaf(leaf);
+    if (reveal) await ws.revealLeaf(leaf);
   }
 
   refreshViews(onlyIfDayChanged = false) {

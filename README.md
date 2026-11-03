@@ -12,6 +12,17 @@ A calendar in your Obsidian sidebar that opens and creates your **daily, weekly,
 - Week starts on Monday (ISO), Sunday, or your app language.
 - Holidays work offline. Data covers 2026–2030 and is updated every year.
 
+## Installation
+1. In Obsidian, open **Settings → Community plugins** and turn off Restricted mode if it is on.
+2. Select **Browse**, search for **World Calendar Notes**, then select **Install** and **Enable**.
+3. Manual install: download `main.js`, `manifest.json` and `styles.css` from the latest [release](https://github.com/Veniwol-Li-Lambd/world-calendar-notes/releases) into `<your vault>/.obsidian/plugins/world-calendar-notes/`, then enable the plugin.
+
+## Usage
+1. Open the calendar with the calendar icon in the left ribbon, or run **World Calendar Notes: Show calendar** from the command palette.
+2. Click a day to open or create that day's note. Click a week number, the month name, the year or the quarter for those notes.
+3. In **Settings → World Calendar Notes**, choose the folder, file-name format and template for each kind of note, and pick your country for holidays.
+4. Use the commands **Open next note** and **Open previous note** to move between notes of the same kind.
+
 ## Free and Pro
 Free: everything above, with holidays for one country.
 **Pro (one-time purchase)** adds:
