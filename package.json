@@ -1,6 +1,6 @@
 {
   "name": "world-calendar-notes",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Obsidian calendar with periodic notes, world holidays and other calendars",
   "main": "main.js",
   "scripts": {

@@ -18,7 +18,7 @@ function ensureWeekLocales() {
   moment.locale(prev); // defineLocale switches the global locale; switch it back
 }
 // Set when the Gumroad product exists. Empty = licence check disabled (Pro stays locked).
-const GUMROAD_PRODUCT_ID = "";
+const GUMROAD_PRODUCT_ID = "Ut9QvJHf5P8wXnuqWfevXw==";
 const BUY_URL = "https://lilambd.gumroad.com/l/world-calendar-notes";
 
 type Period = "day" | "week" | "month" | "quarter" | "year";
